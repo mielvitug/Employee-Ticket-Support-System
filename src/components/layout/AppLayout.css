@@ -1,0 +1,67 @@
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-header {
+    background: #fff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.site-header-inner {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.brand {
+    color: #0f172a;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav-link {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    color: #475569;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+.nav-link-active {
+    background: #eff6ff;
+    color: #2563eb;
+}
+
+.site-main {
+    flex: 1;
+    width: 100%;
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .site-header-inerr {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
