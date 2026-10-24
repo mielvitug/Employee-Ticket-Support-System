@@ -1,0 +1,37 @@
+.ticket-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.ticket-filters-search {
+  flex: 1 1 16rem;
+}
+
+.ticket-filters-search,
+.ticket-filters-select,
+.ticket-filters-clear {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  background: #fff;
+  font-size: 0.875rem;
+}
+
+.ticket-filters-clear {
+  font-weight: 500;
+  color: #475569;
+  cursor: pointer;
+}
+
+.ticket-filters-clear:hover {
+  background: #f1f5f9;
+}
+
+.ticket-filters-search:focus,
+.ticket-filters-select:focus {
+  outline: 2px solid #bfdbfe;
+  outline-offset: 1px;
+  border-color: #93c5fd;
+}
